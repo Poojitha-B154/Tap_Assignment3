@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lazy Loading Images</title>
+  <style>
+    img {
+           width: 100%;
+           max-width: 400px;
+           height: 300px;
+           display: block;
+           margin: 40px auto;
+           background-color: #ddd;
+           filter: blur(15px);
+          transition: filter 1s ease;
+        }
+
+    img.loaded {
+           filter: blur(0);
+        }
+
+  </style>
+</head>
+<body>
+
+  <h1 style="text-align:center;">Lazy Loading Images</h1>
+
+  <img data-src="Images/image1.jpg" alt="Nature" />
+  <img data-src="Images/image2.jpg" alt="Nature" />
+  <img data-src="Images/image3.jpg" alt="Nature" />
+  <img data-src="Images/image4.jpg" alt="Nature" />
+  <img data-src="Images/image5.jpg" alt="Nature" />
+
+  <script src="script.js"></script>
+</body>
+</html>
