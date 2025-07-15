@@ -7,7 +7,7 @@ Modern websites often contain a large number of images. Loading all images at on
 This becomes more critical for users with limited data plans or slow connections, where downloading unused images upfront is inefficient.
 
 2. Solution Overview:
-Lazy Loading is a performance optimization technique where images are only loaded when they are about to enter the viewport (visible area of the screen). This approach ensures:
+  Lazy Loading is a performance optimization technique where images are only loaded when they are about to enter the viewport (visible area of the screen). This approach ensures:
 1. Faster initial page load
 2. Reduced memory and data usage
 3. Smoother scrolling and better performance
