@@ -1,9 +1,9 @@
 Project Title: Lazy Load Images (Real-World: Faster Webpages)
 1. Problem Statement:
 Modern websites often contain a large number of images. Loading all images at once, especially those not immediately visible on the screen (i.e., below the fold), leads to:
-1. Increased page load time
-2. Wasted bandwidth
-3. Poor user experience on slower networks or mobile devices
+-> Increased page load time
+-> Wasted bandwidth
+-> Poor user experience on slower networks or mobile devices
 This becomes more critical for users with limited data plans or slow connections, where downloading unused images upfront is inefficient.
 
 2. Solution Overview:
