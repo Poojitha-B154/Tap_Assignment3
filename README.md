@@ -8,9 +8,9 @@ This becomes more critical for users with limited data plans or slow connections
 
 2. Solution Overview:
   Lazy Loading is a performance optimization technique where images are only loaded when they are about to enter the viewport (visible area of the screen). This approach ensures:
-1. Faster initial page load
-2. Reduced memory and data usage
-3. Smoother scrolling and better performance
+-> Faster initial page load
+-> Reduced memory and data usage
+-> Smoother scrolling and better performance
 To implement this efficiently and cleanly, we use the Intersection Observer API, a modern browser feature that allows us to observe when elements (e.g., images) become visible in the viewport
 
 3. How It Works :
